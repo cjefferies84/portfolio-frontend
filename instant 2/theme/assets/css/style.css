@@ -69,7 +69,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
-    color: #4a4a4a;
+    color: #333;
 }
 
 
@@ -217,7 +217,26 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+#interestswrap {
+	background: url(../img/nuhFyS4.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: fixed;
+	background-position: center center;
+	min-height: 550px;
+	width: 100%;
 
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 
 img.bg {
