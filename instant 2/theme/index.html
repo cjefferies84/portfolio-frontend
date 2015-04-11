@@ -17,6 +17,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/css/default.css" rel="stylesheet">
+	<link href="assets/css/interest.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -40,15 +41,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">INSTANT</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#works">Works</a></li>
-		    <li><a href="interests.html">Interests</a></li>
-          </ul>
+			<div class="navbar-collapse collapse">
+			  <ul class="nav navbar-nav navbar-left">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#works">Works</a></li>
+				<li><a href="interests.html">Interests</a></li>
+			  </ul>
+        	</div>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -131,11 +131,58 @@
 				<div class="col-lg-4">
 					<p>hello@instant.com</p>
 				</div>
+					<div id="contact-form">
+
+						<form id="contact" method="post" action="">
+						<fieldset>
+
+						<label for="name">Name</label>
+						<input type="text" name="name">
+
+						<label for="email">E-mail</label>
+						<input type="email" name="email">
+
+						<label for="phone">Phone</label>
+						<input type="text" name="phone">
+
+						<label for="website">Website</label>
+						<input type="url" name="url">
+
+						<label for="message">Question/Comment</label>
+						<textarea name="message"></textarea>
+
+						<input type="submit" name="submit" id="submit" value="Send Message" />
+
+						</fieldset>
+						</form>
+
+					</div><!-- /end #contact-form -->
+					- See more at: http://eightonefive.com/blog/2011/10/20/create-a-simple-html5-contact-form/#sthash.DOJCGoGc.dpuf
+
+					<label for="name">Name</label>
+					<input type="text" name="name" placeholder="Full Name">
+
+					<label for="email">E-mail</label>
+					<input type="email" name="email" placeholder="name@domain.com">
+
+					<label for="phone">Phone</label>
+					<input type="tel" name="phone" placeholder="ex. (555) 555-5555">
+
+					<label for="website">Website</label>
+					<input type="url" name="url" placeholder="http://">
+- See more at: http://eightonefive.com/blog/2011/10/20/create-a-simple-html5-contact-form/#sthash.DOJCGoGc.dpuf
 			</div>
 		</div>
 	</div><! --/footerwrap -->
 	
-
+	<script src="js/jquery.placeholder.js"></script>
+	<script src="js/modernizr-min.js"></script>
+	<script>
+	if (!Modernizr.input.placeholder){
+	 $('input[placeholder], textarea[placeholder]').placeholder();
+	}
+	</script>
+- See more at: http://eightonefive.com/blog/2011/10/20/create-a-simple-html5-contact-form/#sthash.DOJCGoGc.dpuf
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
