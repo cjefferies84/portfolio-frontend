@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #ffffff
 }
 
-#skillswrap h1 {
+#skills h3 {
 	color: #48ACDE;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -148,9 +148,15 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-#skillswrap h1 {
+#skills h3 {
 	font-weight: 400;
 	color: #48ACDE;
+}
+
+#icons {
+	float-offset: left;
+
+
 }
 
 .section-heading-spacer {
