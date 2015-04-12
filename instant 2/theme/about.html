@@ -28,8 +28,7 @@
   </head>
 
   <body>
-
-    <!-- Static navbar -->
+  	<!-- Static navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -132,37 +131,82 @@
 	<div id="footerwrap">
 		<div class="container">
 			<div class="row centered">
-				<div class="col-lg-4">
-					<p><b>WEB DESIGNER, DEVELOPER & GAME ADDICT</b></p>
-				</div>
-			
-				<div class="col-lg-4">
-					<p>Living in the amazing London.</p>
-				</div>
-				<div class="col-lg-4">
-					<p>hello@instant.com</p>
-				</div>
-			
+				<div class="col-lg-6">
+					<p><b>WEB DESIGNER, DEVELOPER & AVID OUTDOORSMAN</b></p>
+					<p>Enjoying the beauty and opportunity of the Silicon Slopes</p>
+						<p>
+							 <div class="container">
+								<a href="tel://850-530-4740">
+									<i class="fa fa-phone">
+										850.530.4740
+									</i>
+								</a>
+								<a href="mailto:cjefferies8439@gmail.com" class="email">cjefferies8439@gmail.com</a>
+								<ul class="nav navbar-nav navbar-left">
+									<li class="active"><a href="index.html">Home</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="#works">Works</a></li>
+									<li><a href="interests.html">Interests</a></li>
+								</ul>
+							</div>
+						</p>
+					</section>
+
+					<div class="container">
+						<div class="row centered">
+							<div class="col-md-6">
+								<div id="contact-form">
+
+									<form id="contact" method="post" action="">
+									<fieldset>
+
+									<label for="name">Name</label>
+									<input type="text" name="name">
+
+									<label for="email">Email</label>
+									<input type="email" name="email">
+
+									<label for="phone">Phone</label>
+									<input type="text" name="phone">
+
+									<label for="website">Website</label>
+									<input type="url" name="">
+
+									<label for="message">Question/Comment</label>
+									<textarea name="message"></textarea>
+
+									<input type="submit" name="submit" id="submit" value="Send Message" />
+
+									</fieldset>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>		!-- /end #contact-form -->
 			</div>
-		
 		</div>
 	</div><! --/footerwrap -->
-	
+		<script src="js/jquery.placeholder.js"></script>
+		<script src="js/modernizr-min.js"></script>
+		<script>
+		if (!Modernizr.input.placeholder){
+		 $('input[placeholder], textarea[placeholder]').placeholder();
+		}
+		</script>
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script>
+		$(function () {
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 40
+			});
+		});
+		</script>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script>
-    $(function () {
-        $.stellar({
-            horizontalScrolling: false,
-            verticalOffset: 40
-        });
-    });
-</script>
-
-  </body>
 </html>

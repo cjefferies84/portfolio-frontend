@@ -138,6 +138,26 @@ h1, h2, h3, h4, h5, h6 {
 	color: #ffffff
 }
 
+#skillswrap h1 {
+	color: #48ACDE;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+
+}
+
+#skillswrap h1 {
+	font-weight: 400;
+	color: #48ACDE;
+}
+
+.section-heading-spacer {
+	float: left;
+	margin-bottom: 30px;
+}
+
 #social {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -151,12 +171,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #social i:hover {
 	color: #1abc9c
-}
-
-
-
-#linkedIn {
-
 }
 
 #footerwrap {
@@ -279,4 +293,5 @@ img.bg {
 
 .gallery img:hover {
 	opacity: 0.4;
+
 }
