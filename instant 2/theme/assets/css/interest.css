@@ -1,3 +1,20 @@
 
 
 
+h1 {
+	margin: 0;
+	text-transform: full-size-kana;
+	font-weight: normal;
+	color: #48ACDE;
+}
+
+#footerwrap {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-color: #2f2f2f;
+}
+
+#footerwrap p {
+	color: #f2f2f2;
+	margin-left: 10px;
+}
