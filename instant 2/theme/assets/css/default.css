@@ -10,7 +10,6 @@ body {
 	padding: 0;
 	background: #242424;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
 	color: #BBBBBB;
 }
 
@@ -60,7 +59,7 @@ img {
 
 img.left {
 	float: left;
-	margin-right: 15px;
+	margin-right: 1px;
 }
 
 img.right {
@@ -92,6 +91,7 @@ input, textarea, select {
 }
 
 /* Header */
+
 
 #header {
 	clear: both;
@@ -398,3 +398,5 @@ html>body #footer {
 
 #legal a {
 }
+
+

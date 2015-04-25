@@ -18,3 +18,107 @@ h1 {
 	color: #f2f2f2;
 	margin-left: 10px;
 }
+
+.border-split {
+	border-left: 2px solid #ddd;
+	padding-left: 40px;
+	margin-left: 0;
+
+	float: none !important;
+	vertical-align: middle;
+}
+
+.skills .skill img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+img {
+  width: auto\9;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.skills {
+  text-align: center;
+}
+.skills .skill {
+  display: inline-block;
+  margin: 2% 2%;
+  width: 75px;
+}
+
+.skills .skill:first-child,
+.skills .skill:nth-child(5) {
+  margin-left: 0;
+}
+
+.skills .skill img {
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.skills .skill span {
+  font-size: 11px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+#page-experience {
+  padding: 75px 0;
+  background: #f7f7f7;
+}
+
+.added-row {
+	padding-top: 50px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.link-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0);
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+
+/* Main Stylesheet */
+/* Import Bootstrap styles and Responsive styles */
+@import url('bootstrap.css');
+@import url('bootstrap-responsive.css');
+
+/* Add top padding for navbar-top-fixed */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  }
+/* Remove top padding when top navbar goes static in narrow viewports */
+@media (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+}
+
+
+
+
