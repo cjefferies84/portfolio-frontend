@@ -44,6 +44,7 @@
 
 .centered {
 	text-align: center
+
 }
 
 .mt {
@@ -63,6 +64,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 18px;
+
+
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -150,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #icons {
-	float-offset: left;
+	float-offset: right;
 
 
 }
@@ -337,6 +340,8 @@ img.bg {
 /* Gallery */
 .gallery {
 	margin-top: 30px;
+
+
 }
 
 .gallery img:hover {

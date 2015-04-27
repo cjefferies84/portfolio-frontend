@@ -84,7 +84,7 @@ img {
 
 .row {
   margin-right: -15px;
-  margin-left: -15px;
+  margin-left: -30px;
 }
 
 .text-center {
@@ -104,8 +104,6 @@ img {
 
 /* Main Stylesheet */
 /* Import Bootstrap styles and Responsive styles */
-@import url('bootstrap.css');
-@import url('bootstrap-responsive.css');
 
 /* Add top padding for navbar-top-fixed */
 body {
@@ -119,6 +117,154 @@ body {
   }
 }
 
+body {
+	margin-top: 49px;
+	padding: 0;
+	background: #242424;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #BBBBBB;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-transform: lowercase;
+	font-weight: normal;
+	color: #48ACDE;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+p, ul, ol {
+	margin: 0 0 2em 0;
+}
+
+h1 {
+	margin: 0;
+	text-transform: full-size-kana;
+	font-weight: normal;
+	color: #48ACDE;
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
 
 
+.container {
+  padding-right: 15px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1350px;
+}
 
+.row:before {
+  display: table;
+  content: " ";
+}
+
+.row:after,  {
+  display: table;
+  content: " ";
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+a.page-scroll {
+
+}
+
+.gallery2 img {
+
+  padding: 5px;
+  background: #BABABA;
+  border: 1px solid #BABABA;
+}
+
+.img-responsive, img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+    position: relative;
+    padding-bottom: 1%;
+    margin: 10px -30px;
+}
+
+.row-skills {
+  border-bottom: 2px solid #ddd;
+  padding: 40px 0 40px;
+}
+
+body {
+  /* height: 100%; */
+  width: 100%;
+  background: #242424;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #BBBBBB;
+}
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.428571429;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+#page-experience {
+  padding: 75px;
+  background: #000000;
+}
+.page-experience img {
+  max-height: 128px;
+  box-shadow: 5px 5px 15px #aaa;
+}
+.experience img{
+  position: relative;
+  margin: 10px -30px;
+}
+.experience img-responsive, img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.experience li {
+  list-style: none;
+  margin: 0 0 10px -40px;
+  padding-left: 25px;
+  border-left: 2px solid #1abc9c;
+}
+.style {
+}
+#page-experience {
+  padding: 75px 0;
+  background: #000000;
+}
+
+.row-resume {
+  border-bottom: 2px solid #ddd;
+  padding: 40px 0 40px;
+
+}

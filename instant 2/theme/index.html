@@ -16,6 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/fancybox-download" rel="stylesheet">
 	<link href="assets/css/default.css" rel="stylesheet">
 	<link href="assets/css/interest.css" rel="stylesheet">
 
@@ -43,11 +44,21 @@
           </button>
 			<div class="navbar-collapse collapse">
 			  <ul class="nav navbar-nav navbar-left">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="portfolio">Portfolio</a></li>
-				<li><a href="resume.html">Resume</a></li>
-				<li><a href="interests.html">Interests</a></li>
+				<li class="hidden">
+					<a href="page-top"></a>
+				</li>
+				<li class="active">
+					<a class="page-scroll" href="#portfolio">Portfolio</a></li>
+				<li>
+					<a class="page-scroll" href="#skills">Skills</a></li>
+				<li>
+					<a class="page-scroll" href="#resume">Resume</a></li>
+				<li>
+					<a href="interests.html">Interests</a></li>
+				<li>
+				    <a href="index.html">Home</a></li>
+				<li>
+				    <a href="about.html">About</a></li>
 			  </ul>
         	</div>
         </div><!--/.nav-collapse -->
@@ -71,146 +82,236 @@
 		<div class="container">
 			<div class="row centered mt mb">
 				<h1>My Portfolio</h1>
+						<div class="gallery2">
+							<div class="col-lg-4 col-md-4 col-sm-4 gallery">
 
-				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-					<a href="work.html"><img src="assets/img/neutroninteractivelogo.png" class="img-responsive"></a>
-					<div class="link-overlay fa fa-search"></div>
-					<h1>VALENCE</h1>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-					<a href="work.html"><img src="assets/img/images2/recipe_organizer.jpg" class="img-responsive"></a>
-					<h1>spice</h1>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-					<a href="work.html"><img src="assets/img/images2/swapshop.png" class="img-responsive"></a>
-				</div>
-				<h1>swap</h1>
-				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-					<a href="work.html"><img src="assets/img/images2/spectrum.jpg" class="img-responsive"></a>
-					<h1>spectrum</h1>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-					<a href="work.html"><img src="assets/img/images2/recipe_organizer.jpg" class="img-responsive"></a>
-					<h1>spice</h1>
-				</div>
-			</div><! --/row -->
-		</div><! --/container -->
-	</section>
-	<section class="border-split">
-		<div id="wrap">
-			<div class="left"></div>
-			<div id="skills" class="skillset">
-				<div class="row centered mt mb">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-lg-6 col-sm-6">
-								<hr class="section-heading-spacer">
-								<h1>skills</h1>
-									<p> I have a passion and drive to learn new emerging technologies in the world of IT. My most recent work has been
-										in open source but I have also worked in a Windows environment with VBScript and SQL. I have listed some of the
-										technologies I have worked with and I am currently focused to deepen my skill set in Python and JavaScript.
-									</p>
-									<br>
-									<p>	Due to my MIS background and my personality I have always been open to positions such as implementation consultant,
-										Business Analyst, QA, and Data Analyst. I enjoy working directly with the client and feel that this is
-										one of my strongest talents due to my soft skills. I believe understanding the software aspect of projects gives me
-										a unique capability to translate end user requirements, suggest improved functionality, and identify possible issues
-										during requirements analysis.
-									</p>
-									<br>
-									<p>	I enjoy teaching people how to use software and have gained a much broader understanding of agile software development,
-										SCRUM methodology, and Restful APIs since graduating from the Coding Campus.
-									</p>
+								<a href="work.html"><img src="assets/img/images2/neutonbig2._cropped_again.JPG" class="img-responsive"></a>
+								<br />
+								<h1>valence</h1>
+
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+
+								<a class="work.html"href=assets/img/images2/recipe_organizer.jpg">
+									<img class="img-responsive" src="assets/img/images2/recipe_organizer.jpg" style=width:100%;height:100%>
+								</a>
+								<br />
+								<h1>spice</h1>
+
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+
+								<a href="work.html"><img src="assets/img/images2/swapshop.png" class="img-responsive" style=width:100%;height:100%></a>
+								<br />
+								<h1>swap</h1>
+
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+
+								<a href="work.html"><img src="assets/img/images2/spectrum.jpg" class="img-responsive" style=width:100%;height:100%></a>
+								<br />
+								<h1>spectrum</h1>
+
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+
+								<a href="work.html"><img src="assets/img/images2/underway.jpg" class="img-responsive" style=width:100%;height:100%></a>
+								<br />
+								<h1>underway</h1>
+
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+
+								<a  href="work.html"><img src="assets/img/images2/higgins.jpg" class="img-responsive" style=width:100%;height:110%></a>
+								<br />
+								<h1>the higgins gallery</h1>
 
 							</div>
 						</div>
-					</div>
-				</div>
 			</div>
-		</div>
-	</section>
+		</div><! --/row -->
+  <section class="row-skills"></section>
+	<br>
+	<div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-6">
+                <hr class="section-heading-spacer">
+					<h1>skills</h1>
+					<br>
+						<p> I have a passion and drive to learn new emerging technologies in the world of IT. My most recent work has been
+							in open source but I have also worked in a Windows environment with VBScript and SQL. I have listed some of the
+							technologies I have worked with and I am currently focused to deepen my skill set in Python and JavaScript.
+						</p>
 
+						<p>	Due to my MIS background and my personality I have always been open to positions such as implementation consultant,
+							Business Analyst, QA, and Data Analyst. I enjoy working directly with the client and feel that this is
+							one of my strongest talents due to my soft skills. I believe understanding the software aspect of projects gives me
+							a unique capability to translate end user requirements, suggest improved functionality, and identify possible issues
+							during requirements analysis.
+						</p>
 
-	<section class="border-split">
-			<div class="span6">
-					<div class="row centered mt mb">
-						<div class="container-fluid">
-							<div class="col-lg-6 col-lg-offset-1 col-sm-6">
-
-								<div class="span6 skills">
-
-										<div class="skill">
-											<img src="assets/img/images2/angularjs.png" class="img-responsive">
-											<span>AngularJS</span>
-										</div>
-
-										<div class="skill">
-											<img src="assets/img/images2/Python-logo-notext.svg.png " class="img-responsive">
-											<span>Python</span>
-										</div>
-
-										<div class="skill">
-											<img src="assets/img/images2/logo_JavaScript.png" class="img-responsive">
-											<span>JavaScript</span>
-										</div>
-										<br>
-										<br>
-										<div class="skill">
-											<img src="assets/img/images2/vbScript.jpeg" class="img-responsive">
-											<span>VBScript</span>
-										</div>
-
-										<div class="skill">
-											<img src="assets/img/images2/NET.jpeg" class="img-responsive">
-											<span>.NET</span>
-										</div>
-
-										<div class="skill">
-											<img src="assets/img/images2/postgreSQL.png" class="img-responsive">
-											<span>PostgreSQL</span>
-										</div>
-										<br>
-										<br>
-
-										<div class="skill">
-											<img src="assets/img/images2/sqlite.jpeg" class="img-responsive">
-											<span>SQLite</span>
-										</div>
-
-										<div class="skill">
-											<img src="assets/img/images2/T_SQL.jpeg" class="img-responsive">
-											<span>T-SQL</span>
-										</div>
-
-										<div class="skill">
-											<img src="assets/img/images2/bootstrap.jpeg" class="img-responsive">
-											<span>Bootstrap</span>
-										</div>
-										<br>
-										<br>
-										<div class="skill">
-											<img src="assets/img/images2/ajax.jpeg" class="img-responsive">
-											<span>AJAX</span>
-										</div>
-										<br>
-										<br>
-										<div class="skill">
-											<img src="assets/img/images2/jQuery.jpeg" class="img-responsive">
-											<span>jQuery</span>
-										</div>
-										<br>
-										<br>
-
-										<div class="skill">
-											<img src="assets/img/images2/git.jpeg" class="img-responsive">
-											<span>Git</span>
-										</div>
+						<p>	I enjoy teaching people how to use software and have gained a much broader understanding of agile software development,
+							SCRUM methodology, and Restful APIs since graduating from the Coding Campus.
+						</p>
+					</div><br><br>
+						<div class="col-lg-5 col-lg-offset-1 col-sm-6">
+							<div class="span6 skills">
+									<div class="skill">
+										<img src="assets/img/images2/angularjs.png" class="img-responsive">
+										<span>AngularJS</span>
+									</div>
+									<div class="skill">
+										<img src="assets/img/images2/Python-logo-notext.svg.png " class="img-responsive">
+										<span>Python</span>
+									</div>
+									<div class="skill">
+										<img src="assets/img/images2/logo_JavaScript.png" class="img-responsive">
+										<span>JavaScript</span>
+									</div>
+									<div class="skill">
+										<img src="assets/img/images2/vbScript.jpeg" class="img-responsive">
+										<span>VBScript</span>
+									</div>
+									<br>
+									<br>
+									<div class="skill">
+										<img src="assets/img/images2/NET.jpeg" class="img-responsive">
+										<span>.NET</span>
+									</div>
+									<div class="skill">
+										<img src="assets/img/images2/postgreSQL.png" class="img-responsive">
+										<span>PostgreSQL</span>
+									</div>
+									<div class="skill">
+										<img src="assets/img/images2/sqlite.jpeg" class="img-responsive">
+										<span>SQLite</span>
+									</div>
+									<div class="skill">
+										<img src="assets/img/images2/T_SQL.jpeg" class="img-responsive">
+										<span>T-SQL</span>
+									</div>
+									<br>
+									<br>
+									<div class="skill">
+										<img src="assets/img/images2/bootstrap.jpeg" class="img-responsive">
+										<span>Bootstrap</span>
+									</div>
+									<div class="skill">
+										<img src="assets/img/images2/ajax.jpeg" class="img-responsive">
+										<span>AJAX</span>
+									</div>
+									<div class="skill">
+										<img src="assets/img/images2/jQuery.jpeg" class="img-responsive">
+										<span>jQuery</span>
+									</div>
+									<div class="skill">
+										<img src="assets/img/images2/git.jpeg" class="img-responsive">
+										<span>Git</span>
 									</div>
 							</div>
 						</div>
-					</div>
+				</hr>
 			</div>
-	</section>
+		</div>
+	</div>
+  </div>
+	<section class="row-skills"></section>
+	<br>
+	<! --/container -->
+			<section id="page-experience" class="page-experience">
+       			 <div id="experience-container" class="container">
+            		<header class="section-header">
+                		<h2 class="section-title"><span>Resume</span></h2>
+                		<div class="spacer"></div>
+                		<br>
+            		</header>
+
+
+						<div class="row">
+							<div class="col-md-6">
+								<article class="experience">
+									<header>
+										<img src="assets/img/images2/coding-campus-logo.png">
+										<h3>Coding Campus</h3>
+										<br>
+										<p>Web Developement Intern <span class="pipe">|</span> Provo, UT
+										   <span class="pipe">|</span> Jan '15 - Present</p>
+									</header>
+									<ul>
+										<li>Full time immersive software development bootcamp focused on creating cutting edge web applications </li>
+										<li>Full-stack web development using Python, Django, JavaScript, AngularJS, JSON, REST, HTML, CSS and Git</li>
+										<li>Worked with Neutron Interactive, an online marketing lead generation company located in downtown Salt Lake City in developing a custom software application</li>
+										<li>Currently creating ‘spice’, a recipe manager purely focused on cajun and southern regional cuisine, a very unique web based application for all foodies who love spice and comfort food</li>
+										<li>Assisted in the development of a web based application offering online access to users interested in trading items with one another, currently researching legality and shipping concerns</li>
+
+											<!--<li>Connected with bloggers and influencers in different fields to publish client's content
+											and help their SEO rankings.</li>-->
+									</ul>
+								</article>
+							</div>
+
+			<!--The SSI Group-->
+							<div class="col-md-6">
+								<article class="experience">
+									<header>
+										<img src="assets/img/images2/ssigroup.jpeg">
+										<h3>The SSI Group, Inc.</h3>
+										<br>
+										<p>Tier II Programmer Analyst <span class="pipe">|</span> Mobile, AL <span class="pipe">|</span> June '14 - Sep '14</p>
+									</header>
+									<ul>
+										<li>Developed, modified, and maintained current VB posting scripts for enterprise level CRM software applications including HARP, Bill Date Posting, and Confirmation Note Posting for Healthcare Revenue Cycle Management</li>
+										<li>Tested updated scripts after modifications to ensure functionality in SQL for accurate remit postings</li>
+										<li>Solid understanding of Oracle on Demand SSR system management to maximize quality of client support and lower SSR support life cycle times per client</li>
+										<li>Knowledge and experience working with multiple HIS systems including STAR, Medetech, and HMS</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+			<!--UWF-->
+						<div class="row">
+							<div class="col-md-6">
+								<article class="experience">
+									<header>
+										<img src="assets/img/images2/uwf.jpeg" style="padding: 10px;">
+										<h3>University of West Florida (John Pace Library)</h3>
+										<br>
+										<p>ILL(Interlibrary Loan) Information Specialist <span class="pipe">|</span> Pensacola, FL <span class="pipe">|</span> Oct '13 - May '14</p>
+									</header>
+									<ul>
+										<li>Process ILL requests using ILLiad 8.4 and Rapid software applications</li>
+										<li>Archive completed ILL requests, maintenance on local ILL department network drives </li>
+										<li>Implement ILLiad and Rapid software updates as needed</li>
+										<li>Implement ILLiad and Rapid software updates as needed</li>
+									</ul>
+								</article>
+							</div>
+			<!--Spectrum-->
+							<div class="col-md-6">
+								<article class="body">
+									<header>
+										<img src="assets/img/images2/spectrum.png" style="padding: 10px;">
+										<h3>Spectrum Professional Services</h3>
+										<br>
+										<p>Consultant/Landscaping Technician <span class="pipe">|</span> Pensacola, FL <span class="pipe">|</span> June '12 - Dec '14</p>
+									</header>
+									<ul>
+										<li>Marketing strategy development to increase commercial and residential client growth</li>
+										<li>Landscape architecture for commercial properties</li>
+										<li>Microsoft OS maintenance of Windows 8; implemented decision support system (DSS) initiative in Microsoft  Access for the business to monitor seasonal trends</li>
+										<li>Financial ratio analysis; including liquidity, leverage, quick/current ratio, ROA/ROE, and ROI to determine profitability and improve the overall health of the business while identifying areas for potential  loss</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</div>
+	</div>
 
 	<div id="social">
 		<div class="container-fluid">
@@ -268,7 +369,7 @@
 		</div>
 	</div>
 
-		<script src="assets/js/jquery.placeholder.js"></script>
+		<script src="assets/jquery.placeholder"></script>
 		<script src="assets/js/modernizr-min.js"></script>
 		<script src="assets/js/modernizr 2.8.3.js"></script>
 		<script>
@@ -281,13 +382,19 @@
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
-		<script>
-		$(function () {
-			$.stellar({
-				horizontalScrolling: false,
-				verticalOffset: 40
+		<script type="text/javascript">
+			$(function () {
+				$.stellar({
+					horizontalScrolling: false,
+					verticalOffset: 40
+				});
 			});
-		});
-		</script>
+			</script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$(".fancybox").fancybox();
+				});
+			</script>
+
   </body>
 </html>
