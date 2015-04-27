@@ -266,5 +266,9 @@ body {
 .row-resume {
   border-bottom: 2px solid #ddd;
   padding: 40px 0 40px;
+}
 
+.row-skills{
+  border-bottom: 2px solid #ddd;
+  padding: 40px 0 40px;
 }
